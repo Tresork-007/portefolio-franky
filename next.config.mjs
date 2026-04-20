@@ -8,8 +8,6 @@ const nextConfig = {
   },
   output: 'export',
   trailingSlash: true,
-  basePath: process.env.NODE_ENV === 'production' ? '/portefolio-franky' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/portefolio-franky' : '',
 }
 
 export default nextConfig
